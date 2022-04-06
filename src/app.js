@@ -2,7 +2,7 @@ const hbs = require('hbs')
 const path = require("path")
 const express = require('express')
 const location_ = require('./utils/app1')
-const port = process.env.PORT  ||  3000
+const port = process.env.PORT  ||  3000;
 console.log(path.join(__dirname,'../public')  )
 //console.log(__filename)
 const publicDirectory = path.join(__dirname, '../public')
