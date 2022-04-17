@@ -8,7 +8,7 @@ console.log(path.join(__dirname,'../public')  )
 const publicDirectory = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
-
+console.log("working")
 const app = express()
 
 app.set('view engine', 'hbs')
